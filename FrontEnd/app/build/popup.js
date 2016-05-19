@@ -19776,11 +19776,44 @@
 	        _react2.default.createElement(
 	          _list2.default,
 	          null,
-	          _react2.default.createElement(_listItem2.default, { primaryText: 'Apple - яблоко.' }),
-	          _react2.default.createElement(_listItem2.default, { primaryText: 'Bad - very bad.' }),
-	          _react2.default.createElement(_listItem2.default, { primaryText: 'Good - very.' }),
-	          _react2.default.createElement(_listItem2.default, { primaryText: 'Window - окно.' }),
-	          _react2.default.createElement(_listItem2.default, { primaryText: 'The Sun - Солнце.' })
+	          _react2.default.createElement(_listItem2.default, { primaryText: 'Rise - Fall' }),
+	          _react2.default.createElement(_listItem2.default, { primaryText: 'Верх - вниз' }),
+	          _react2.default.createElement(_listItem2.default, { primaryText: 'Жоғары - төмен' }),
+	          _react2.default.createElement(_listItem2.default, { primaryText: 'Back - Front' }),
+	          _react2.default.createElement(_listItem2.default, { primaryText: 'Apple - яблоко' })
+	        ),
+	        _react2.default.createElement(
+	          Card,
+	          null,
+	          _react2.default.createElement(CardHeader, {
+	            title: 'Title',
+	            subtitle: 'Subtitle',
+	            avatar: _react2.default.createElement(
+	              Avatar,
+	              null,
+	              'A'
+	            ) }),
+	          _react2.default.createElement(CardHeader, {
+	            title: 'Demo Url Based Avatar',
+	            subtitle: 'Subtitle',
+	            avatar: 'http://lorempixel.com/100/100/nature/' }),
+	          _react2.default.createElement(
+	            CardMedia,
+	            { overlay: _react2.default.createElement(CardTitle, { title: 'Title', subtitle: 'Subtitle' }) },
+	            _react2.default.createElement('img', { src: 'http://lorempixel.com/600/337/nature/' })
+	          ),
+	          _react2.default.createElement(CardTitle, { title: 'Title', subtitle: 'Subtitle' }),
+	          _react2.default.createElement(
+	            CardActions,
+	            null,
+	            _react2.default.createElement(_flatButton2.default, { label: 'Action1' }),
+	            _react2.default.createElement(_flatButton2.default, { label: 'Action2' })
+	          ),
+	          _react2.default.createElement(
+	            CardText,
+	            null,
+	            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis pretium massa. Aliquam erat volutpat. Nulla facilisi. Donec vulputate interdum sollicitudin. Nunc lacinia auctor quam sed pellentesque. Aliquam dui mauris, mattis quis lacus id, pellentesque lobortis odio.'
+	          )
 	        )
 	      );
 	    }
