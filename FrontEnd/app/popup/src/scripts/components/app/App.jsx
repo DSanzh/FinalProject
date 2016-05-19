@@ -40,19 +40,20 @@ class App extends Component {
     };
     return (
       <div style={styles.root}>
-        <AppBar title="Dictionary 2016" />
+        <AppBar title="Dictionary" />
         <TextField  hintText="Search" style={styles.search}/>
 
         <List>
           <Card initiallyExpanded={false}>
            <CardHeader
-              title="Апельсин"
-              subtitle="Оранжевый фрукт"
+              title="Красный"
+              subtitle="Вид цвета"
               actAsExpander={true}
               showExpandableButton={true}>
             </CardHeader>
             <CardText expandable={true}>
-              <h3>Orange</h3>Orange fruit
+              <h3>Red</h3>Red Color
+              <h3>Қылыз</h3>Қызыл түс
             </CardText>
             <CardActions expandable={true}>
               <RaisedButton label="More"  />
@@ -61,14 +62,14 @@ class App extends Component {
 
           <Card initiallyExpanded={false}>
            <CardHeader
-              title="Арбуз"
-              subtitle="большой и зеленый"
+              title="Планшет"
+              subtitle="На вид как смартфон но размером больше"
               actAsExpander={true}
               showExpandableButton={true}>
             </CardHeader>
             <CardText expandable={true}>
-              <h3>Watermelon</h3>Big and tasty
-              <h3>Карбыз</h3>Жийтин нарсе
+              <h3>Tablet</h3>Looks like smartphone but bigger
+              <h3>Планшет</h3>Смартфон сияқты бірақ үлкендеу
             </CardText>
             <CardActions expandable={true}>
               <RaisedButton label="More"  />
@@ -77,54 +78,19 @@ class App extends Component {
 
           <Card initiallyExpanded={false}>
            <CardHeader
-              title="Банан"
-              subtitle="Желтый"
+              title="Көлік"
+              subtitle="Жүру құралы"
               actAsExpander={true}
               showExpandableButton={true}>
             </CardHeader>
             <CardText expandable={true}>
-              <h3>Banana</h3>Monkey likes bananas
+              <h3>Автомобил</h3>Транспортное средвство
+              <h3>Car</h3> Vehicle machine
             </CardText>
             <CardActions expandable={true}>
               <RaisedButton label="More"  />
             </CardActions>
           </Card>
-
-          <Card initiallyExpanded={false}>
-           <CardHeader
-              title="Огурец"
-              subtitle="овощ"
-              actAsExpander={true}
-              showExpandableButton={true}>
-            </CardHeader>
-            <CardText expandable={true}>
-              <h3>Cucumber</h3>Green vegetable
-              <h3>Кияр</h3>Жийтин нарсе
-            </CardText>
-            <CardActions expandable={true}>
-              <RaisedButton label="More"  />
-            </CardActions>
-          </Card>
-
-          <Card initiallyExpanded={false} style={styles.root}>
-           <CardHeader
-              title="Яблоко" 
-              subtitle="Фрукт на дереве"
-              actAsExpander={true}
-              showExpandableButton={true}>
-            </CardHeader>
-            <CardText expandable={true}>
-              <h3>Apple</h3>Fruit that grows on trees
-              <h3>Алма</h3>Жийтин нарсе
-            </CardText>
-            <CardActions expandable={true}>
-              <RaisedButton label="More"  />
-            </CardActions>
-          </Card>
-
-
-          
-
           
 
         </List>

@@ -66,6 +66,8 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	(0, _reactDom.render)(_react2.default.createElement(_App2.default, null), document.getElementById('app'));
+	// var  injectTapEventPlugin = require("react-tap-event-plugin");
+	// injectTapEventPlugin();
 
 /***/ },
 /* 2 */
@@ -19783,7 +19785,7 @@
 	      return _react2.default.createElement(
 	        'div',
 	        { style: styles.root },
-	        _react2.default.createElement(_appBar2.default, { title: 'Dictionary 2016' }),
+	        _react2.default.createElement(_appBar2.default, { title: 'Dictionary' }),
 	        _react2.default.createElement(_textField2.default, { hintText: 'Search', style: styles.search }),
 	        _react2.default.createElement(
 	          _list2.default,
@@ -19792,8 +19794,8 @@
 	            Card,
 	            { initiallyExpanded: false },
 	            _react2.default.createElement(CardHeader, {
-	              title: 'Апельсин',
-	              subtitle: 'Оранжевый фрукт',
+	              title: 'Красный',
+	              subtitle: 'Вид цвета',
 	              actAsExpander: true,
 	              showExpandableButton: true }),
 	            _react2.default.createElement(
@@ -19802,9 +19804,15 @@
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                'Orange'
+	                'Red'
 	              ),
-	              'Orange fruit'
+	              'Red Color',
+	              _react2.default.createElement(
+	                'h3',
+	                null,
+	                'Қылыз'
+	              ),
+	              'Қызыл түс'
 	            ),
 	            _react2.default.createElement(
 	              CardActions,
@@ -19816,8 +19824,8 @@
 	            Card,
 	            { initiallyExpanded: false },
 	            _react2.default.createElement(CardHeader, {
-	              title: 'Арбуз',
-	              subtitle: 'большой и зеленый',
+	              title: 'Планшет',
+	              subtitle: 'На вид как смартфон но размером больше',
 	              actAsExpander: true,
 	              showExpandableButton: true }),
 	            _react2.default.createElement(
@@ -19826,15 +19834,15 @@
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                'Watermelon'
+	                'Tablet'
 	              ),
-	              'Big and tasty',
+	              'Looks like smartphone but bigger',
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                'Карбыз'
+	                'Планшет'
 	              ),
-	              'Жийтин нарсе'
+	              'Смартфон сияқты бірақ үлкендеу'
 	            ),
 	            _react2.default.createElement(
 	              CardActions,
@@ -19846,8 +19854,8 @@
 	            Card,
 	            { initiallyExpanded: false },
 	            _react2.default.createElement(CardHeader, {
-	              title: 'Банан',
-	              subtitle: 'Желтый',
+	              title: 'Көлік',
+	              subtitle: 'Жүру құралы',
 	              actAsExpander: true,
 	              showExpandableButton: true }),
 	            _react2.default.createElement(
@@ -19856,69 +19864,15 @@
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                'Banana'
+	                'Автомобил'
 	              ),
-	              'Monkey likes bananas'
-	            ),
-	            _react2.default.createElement(
-	              CardActions,
-	              { expandable: true },
-	              _react2.default.createElement(_raisedButton2.default, { label: 'More' })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            Card,
-	            { initiallyExpanded: false },
-	            _react2.default.createElement(CardHeader, {
-	              title: 'Огурец',
-	              subtitle: 'овощ',
-	              actAsExpander: true,
-	              showExpandableButton: true }),
-	            _react2.default.createElement(
-	              CardText,
-	              { expandable: true },
+	              'Транспортное средвство',
 	              _react2.default.createElement(
 	                'h3',
 	                null,
-	                'Cucumber'
+	                'Car'
 	              ),
-	              'Green vegetable',
-	              _react2.default.createElement(
-	                'h3',
-	                null,
-	                'Кияр'
-	              ),
-	              'Жийтин нарсе'
-	            ),
-	            _react2.default.createElement(
-	              CardActions,
-	              { expandable: true },
-	              _react2.default.createElement(_raisedButton2.default, { label: 'More' })
-	            )
-	          ),
-	          _react2.default.createElement(
-	            Card,
-	            { initiallyExpanded: false, style: styles.root },
-	            _react2.default.createElement(CardHeader, {
-	              title: 'Яблоко',
-	              subtitle: 'Фрукт на дереве',
-	              actAsExpander: true,
-	              showExpandableButton: true }),
-	            _react2.default.createElement(
-	              CardText,
-	              { expandable: true },
-	              _react2.default.createElement(
-	                'h3',
-	                null,
-	                'Apple'
-	              ),
-	              'Fruit that grows on trees',
-	              _react2.default.createElement(
-	                'h3',
-	                null,
-	                'Алма'
-	              ),
-	              'Жийтин нарсе'
+	              ' Vehicle machine'
 	            ),
 	            _react2.default.createElement(
 	              CardActions,
